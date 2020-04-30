@@ -11,6 +11,7 @@ class AutoFullScreenPage extends StatefulWidget {
 
 class _AutoFullScreenPageState extends State<AutoFullScreenPage> {
   IjkMediaController controller = IjkMediaController();
+
   final key = GlobalKey<DefaultIJKControllerWidgetState>();
 
   @override

@@ -1,5 +1,5 @@
-name: ijkplayer_example
-description: Demonstrates how to use the ijkplayer plugin.
+name: ymdy
+description: 玉米电影ijkplayer模块.
 publish_to: "none"
 
 environment:

@@ -75,7 +75,7 @@ class _PlayGalleryPageState extends State<PlayGalleryPage> {
   }
 
   void _playVideo(AssetEntity asset) async {
-    mediaUrl = await asset.getMediaUrl();
+//    mediaUrl = await asset.getMediaUrl();
     setState(() {});
     final file = await asset.file;
     if (file != null && file.existsSync()) {
