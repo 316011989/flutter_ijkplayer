@@ -13,6 +13,8 @@ dependencies:
 
   oktoast: ^2.1.7
 
+  http: ^0.12.1
+
   flutter_localizations:
     sdk: flutter
   intl: ">=0.15.8 <1.0.0"

@@ -14,49 +14,10 @@ abstract class I18n {
     }
   }
 
-  String get indexTitle;
-  String get networkButton;
-  String get photoButton;
-  String get assetButton;
-  String get listViewButton;
-  String get fullScreenAutoButton;
-  String get fullScreenManualButton;
-  String get withDialogButton;
-  String get pageViewButton;
+  String get tabsScreenTitle;
+  String get discoverScreenTitle;
+  String get mineScreenTitle;
 
-  String get showDialog;
-
-  String get autoFullScreenTitle;
-
-  String get changeFullScreenWithButton;
-
-  String get play;
-
-  String get fullScreen;
-
-  String get pick;
-
-  String get noPickTip;
-
-  String get useStreamUsage;
-
-  String get playFinishToast;
-
-  String get screenshotTitle;
-
-  String get overlayPageTitle;
-
-  String get ijkStatusTitle;
-
-  String get customOption;
-
-  String get errorUrl;
-
-  String get customFullScreenWidget;
-
-  String get setSpeed;
-
-  String get autoFullScreenOnPlay;
 }
 
 I18n get currentI18n => I18n(window.locale);

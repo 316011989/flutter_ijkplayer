@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:ymdy/page/home_page.dart';
 
-class SplashPage extends StatefulWidget {
-  SplashPage({Key key, this.title}) : super(key: key);
-  final String title;
+import 'player_portrait.dart';
+
+class TabsScreen extends StatefulWidget {
 
   @override
-  _SplashPage createState() => _SplashPage();
+  _TabsScreen createState() => _TabsScreen();
 }
 
-class _SplashPage extends State<SplashPage> {
+class _TabsScreen extends State<TabsScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,8 +24,8 @@ class _SplashPage extends State<SplashPage> {
           children: <Widget>[
             FlatButton(
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => HomeScreen()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => PlayerPotrait()));
               },
               child: Text("splash页面,点击进入竖屏播放页"),
             ),
