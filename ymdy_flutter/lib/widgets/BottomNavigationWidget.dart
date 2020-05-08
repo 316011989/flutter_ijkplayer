@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ymdy/i18n/i18n.dart';
-import 'package:ymdy/page/discover_fragment.dart';
-import 'package:ymdy/page/mine_fragment.dart';
-import 'package:ymdy/page/tabs_fragment.dart';
+import 'package:ymdy/ui/fragment_discover.dart';
+import 'package:ymdy/ui/fragment_mine.dart';
+import 'package:ymdy/ui/fragment_tabs.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
   @override

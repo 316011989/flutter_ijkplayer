@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ijkplayer/flutter_ijkplayer.dart';
 
-import 'page/page_splash.dart';
+import 'ui/page_splash.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

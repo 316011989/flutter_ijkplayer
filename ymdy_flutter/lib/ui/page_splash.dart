@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ymdy/page/home_page.dart';
+import 'package:ymdy/i18n/i18n.dart';
+import 'page_home.dart';
 
 class SplashPage extends StatefulWidget {
-  SplashPage({Key key, this.title}) : super(key: key);
-  final String title;
-
   @override
   _SplashPage createState() => _SplashPage();
 }
@@ -22,7 +20,7 @@ class _SplashPage extends State<SplashPage> {
                 Navigator.push(
                     context, MaterialPageRoute(builder: (_) => HomeScreen()));
               },
-              child: Text("splash页面,点击进入竖屏播放页"),
+              child: Text(currentI18n.appName),
             ),
           ],
         ),

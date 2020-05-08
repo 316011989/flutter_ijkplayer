@@ -12,5 +12,12 @@ class _I18nEn extends I18n {
   @override
   String get mineScreenTitle => "mine";
 
+  @override
+  String get appName => "StarVideo";
+
+  @override
+  // TODO: implement search
+  String get search => "search";
+
 
 }

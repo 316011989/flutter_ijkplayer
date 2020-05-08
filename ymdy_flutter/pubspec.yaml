@@ -1,6 +1,7 @@
 name: ymdy
+version: 1.0.3
 description: 玉米电影ijkplayer模块.
-publish_to: "none"
+publish_to: "ymdy"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,10 +11,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   photo: ^0.4.8
-
   oktoast: ^2.1.7
-
-  http: ^0.12.1
+  dio: ^3.0.9
+  json_annotation: ^3.0.1
+  package_info: ^0.4.0+17
 
   flutter_localizations:
     sdk: flutter
@@ -29,7 +30,11 @@ dev_dependencies:
 
   intl_translation: ^0.17.3
 
+  build_runner: ^1.9.0
+  json_serializable: ^3.3.0
+
 flutter:
   uses-material-design: true
   assets:
     - assets/
+    - images/

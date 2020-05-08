@@ -14,10 +14,13 @@ abstract class I18n {
     }
   }
 
+  String get appName;
+
   String get tabsScreenTitle;
   String get discoverScreenTitle;
   String get mineScreenTitle;
 
+  String get search;
 }
 
 I18n get currentI18n => I18n(window.locale);

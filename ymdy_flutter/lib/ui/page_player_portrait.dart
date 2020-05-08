@@ -6,9 +6,6 @@ import 'package:ymdy/utils/options_utils.dart';
 
 /// 竖屏播放器
 class PlayerPotrait extends StatefulWidget {
-  PlayerPotrait({Key key, this.title}) : super(key: key);
-  final String title;
-
   @override
   _PlayerPotrait createState() => _PlayerPotrait();
 }

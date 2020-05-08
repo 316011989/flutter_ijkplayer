@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 /// 横屏播放器
 class PlayerLandscape extends StatefulWidget {
-  PlayerLandscape({Key key, this.title}) : super(key: key);
-  final String title;
-
   @override
   _PlayerLandscape createState() => _PlayerLandscape();
 }
